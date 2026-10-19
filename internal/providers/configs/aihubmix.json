@@ -1550,6 +1550,18 @@
       "supports_attachments": true
     },
     {
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "cost_per_1m_in": 0.155,
+      "cost_per_1m_out": 0.62,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0.0031,
+      "context_window": 1000000,
+      "default_max_tokens": 393216,
+      "can_reason": false,
+      "supports_attachments": true
+    },
+    {
       "id": "dots-3-note-preview-free",
       "name": "Dots 3 Note Preview (free)",
       "cost_per_1m_in": 0,
@@ -5294,6 +5306,18 @@
       "supports_attachments": true
     },
     {
+      "id": "qwen3.8-flash-free",
+      "name": "Qwen3.8 Flash (free)",
+      "cost_per_1m_in": 0,
+      "cost_per_1m_out": 0,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0,
+      "context_window": 1000000,
+      "default_max_tokens": 131072,
+      "can_reason": false,
+      "supports_attachments": true
+    },
+    {
       "id": "qwen3.8-max",
       "name": "Qwen3.8 Max",
       "cost_per_1m_in": 1.69,
@@ -5327,6 +5351,18 @@
         "high"
       ],
       "default_reasoning_effort": "medium",
+      "supports_attachments": true
+    },
+    {
+      "id": "qwen3.8-max-free",
+      "name": "Qwen3.8 Max (free)",
+      "cost_per_1m_in": 0,
+      "cost_per_1m_out": 0,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0,
+      "context_window": 1000000,
+      "default_max_tokens": 131072,
+      "can_reason": false,
       "supports_attachments": true
     },
     {
