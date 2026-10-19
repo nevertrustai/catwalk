@@ -1,0 +1,29 @@
+{
+  "name": "Safe AI Labs",
+  "id": "safeailabs",
+  "api_key": "$SAFE_AI_KEY",
+  "api_endpoint": "https://us-region.api.safeailabs.ai/v1",
+  "type": "openai-compat",
+  "default_large_model_id": "deepseek/deepseek-v4.1-flash",
+  "default_small_model_id": "deepseek/deepseek-v4.1-flash",
+  "models": [
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "cost_per_1m_in": 0.3,
+      "cost_per_1m_out": 1,
+      "cost_per_1m_in_cached": 0,
+      "cost_per_1m_out_cached": 0.03,
+      "context_window": 1048576,
+      "default_max_tokens": 65536,
+      "can_reason": true,
+      "reasoning_levels": [
+        "low",
+        "high",
+        "max"
+      ],
+      "default_reasoning_effort": "high",
+      "supports_attachments": true
+    }
+  ]
+}
