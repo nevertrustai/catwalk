@@ -4,12 +4,12 @@
   "api_key": "$SAFE_AI_KEY",
   "api_endpoint": "https://us-region.api.safeailabs.ai/v1",
   "type": "openai-compat",
-  "default_large_model_id": "deepseek/deepseek-v4.1-flash",
-  "default_small_model_id": "deepseek/deepseek-v4.1-flash",
+  "default_large_model_id": "sail-frontier",
+  "default_small_model_id": "sail-frontier",
   "models": [
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek V4.1 Flash",
+      "id": "sail-frontier",
+      "name": "Sail Frontier",
       "cost_per_1m_in": 0.3,
       "cost_per_1m_out": 1,
       "cost_per_1m_in_cached": 0,
